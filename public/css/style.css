@@ -49,6 +49,10 @@ nav, .page-footer {
     /*URL to font*/
 }
 
+button, input, textarea {
+	font-family: 'Georgia', Times, Times New Roman, serif !important;
+}
+
 /* NAVIGATION BAR */
 
 .nav-wrapper {
