@@ -1,0 +1,228 @@
+body {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-image: url("../images/main.jpg");
+	/*https://flashgraphic.com/en/bg-brick-dark-bw/*/
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+nav, .page-footer {
+	background-color: black;
+}
+
+#mainContainer {
+	/*border-right: 2px solid #000;
+	border-bottom: 2px solid #000;
+	border-left: none;
+	border-top: none;*/
+	min-height: 70vh;
+	width: 80%;
+	margin: 0 auto;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	/*box-shadow: 10px 10px 5px #C0C0C0;
+	border-radius: 5px;*/
+}
+
+.dispHide {
+	display: none;
+}
+
+@font-face {
+	font-family: 'Vingy';
+    /*a name to be used later*/
+    src: url('../fonts/Vingy Normal.ttf');
+    /*URL to font*/
+}
+
+@font-face {
+	font-family: 'Autumn';
+    /*a name to be used later*/
+    src: url('../fonts/Autumn In November.ttf');
+    /*URL to font*/
+}
+
+/* NAVIGATION BAR */
+
+.nav-wrapper {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.bottom-menu {
+	color: white;
+	background-color: none;
+	height: 30px;
+}
+
+.brand-logo {
+	text-shadow: 5px 5px 5px #C0C0C0;
+	font-family: "Vingy";
+	font-size: 25px !important;
+}
+
+/* FOOTER */
+
+.page-footer {
+	padding-top: 0px;
+}
+
+footer {
+	/*border-top: 8px solid #000;
+	background-image: linear-gradient(to bottom right, #3B5323,#BCED91, #fff);*/
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	/*text-align: center;*/
+	padding: 20px;
+}
+
+.page-footer a {
+	margin-right: 15px;
+	text-decoration-color: none;
+	text-decoration: none;
+	color: white;
+}
+
+.page-footer a:last-child {
+	margin-right: 0px;
+}
+
+/* PORTFOLIO */
+
+.carousel .carousel-item {
+	height: 425px;
+	width: 500px;
+	top: 10%;
+	cursor: pointer;
+}
+
+.carousel-item img {
+	width: 100%;
+	height: 275px;
+}
+
+.projDef {
+	width: 90%;
+	height: auto;
+	border-radius: 2px;
+	margin: 0 auto;
+	padding: 5px 15px;
+	text-align: justify;
+	background-image: url("../images/grey.png");
+	background-repeat: repeat;
+}
+
+.projTitle {
+	text-align: center;
+	font-size: 35px;
+	font-family: "Vingy";
+	color: white;
+	text-shadow: 5px 5px 5px #D4AF37;
+}
+
+.projTitle:hover {
+	font-weight: bold;
+}
+
+/* RESUME */
+
+iframe {
+	margin: 0 auto;
+	width: 100% !important;
+}
+
+/* ABOUT */
+
+.cut {
+  margin: 1em auto 1em;
+  padding: 40px 1em 1em;
+  color: white;
+  height: 45vh;
+  /* demo purpose */
+  width: 70vw;
+  /*demo purpose */
+  border-radius: 1em;
+  overflow: hidden;
+  position:relative;
+  color: black;
+  text-align: justify;
+  overflow: auto;
+}
+
+.cut:before {
+  content:'';
+  width:235px;
+  border-radius:50%;
+  height:170px;
+  display:block;
+  margin:-140px auto 0;
+  box-shadow:0 0 0 3000px #c4cace;
+}
+
+.rd {
+  display: flex;
+  /* demo purpose */
+  width: 70vw;
+  margin: 1em auto -45px;;
+  border-radius: 50%;
+}
+
+.rd img {
+  margin :0 auto -30px ;
+  flex-shrink:0;
+  border-radius:50%;
+  width: 240px;
+  height: 220px;
+}
+
+#p1:first-letter {
+	float: left;
+    font-size: 1px;
+    padding: 50px 60px 15px 40px;
+    background: url(../images/letI.png);
+    background-repeat: no-repeat;
+    background-size: 90px 65px;
+}
+
+/* MAIN */
+
+.paris img {
+	height: 70vh;
+}
+
+.paris {
+	width: 30%;
+}
+
+.greetings {
+	width: 70%;
+	height: 70vh;
+	align-items: center;
+	padding-top: 5%;
+}
+
+.secondaryContainer {
+	width: 100%;
+}
+
+.greetings-sm {
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	padding-top: 30%;
+}
+
+.greetings-med {
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	padding-top: 5%;
+}

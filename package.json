@@ -1,0 +1,28 @@
+{
+  "name": "My-Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azhelle16/My-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azhelle16/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/azhelle16/My-Portfolio#readme",
+  "dependencies": {
+    "animate.css": "3.7.0",
+    "body-parser": "1.19.0",
+    "ejs": "2.6.1",
+    "express": "4.16.4",
+    "nodemailer": "6.1.1",
+    "require": "2.4.20"
+  }
+}
