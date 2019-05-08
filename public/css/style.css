@@ -85,7 +85,11 @@ footer {
 	width: 100%;
 	bottom: 0;
 	/*text-align: center;*/
-	padding: 20px;
+	/*padding: 20px;*/
+}
+
+.cright {
+	height: 6.25vh;
 }
 
 .page-footer a {
@@ -230,3 +234,4 @@ iframe {
 	align-items: center;
 	padding-top: 5%;
 }
+
