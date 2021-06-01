@@ -60,7 +60,7 @@ app.post("/send", async function(req,res) {
 	    secure: true, // true for 465, false for other ports
 	    auth: {
 	      user: "mlsumulong.myportfolio@gmail.com",
-	      pass: "eizhy1624!" // 
+	      pass: "eizhy162487!" // 
 	    }
 	});
 
